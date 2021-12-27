@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Estrutura Condicional IF ELSE", "2. Estrutura Condicional IF ELSE\2. Estrutura Condicional IF ELSE.csproj", "{EAAE2986-F0D4-40E7-8A63-3FB9608C3F15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAAE2986-F0D4-40E7-8A63-3FB9608C3F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAE2986-F0D4-40E7-8A63-3FB9608C3F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAE2986-F0D4-40E7-8A63-3FB9608C3F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAE2986-F0D4-40E7-8A63-3FB9608C3F15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F306FF60-7F70-4B45-B0D3-F3FE00AEE705}
+	EndGlobalSection
+EndGlobal
