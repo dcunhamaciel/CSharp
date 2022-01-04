@@ -10,7 +10,9 @@
         list.Add(new Product("Tablet", 350.50));
         list.Add(new Product("HD Case", 80.90));
 
-        list.RemoveAll(p => p.Price >= 100.0);
+        Predicate<Product> predicate = (p) => p.Price >= 100;
+
+        list.RemoveAll(predicate);
 
         foreach (Product p in list)
         {
