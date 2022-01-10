@@ -4,7 +4,7 @@ using SalesWebMvc.Model;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<SalesWebMvcContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SalesWebMvcContext")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("SalesWebMvcContext")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
